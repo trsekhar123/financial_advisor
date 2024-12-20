@@ -331,7 +331,7 @@ def main():
     #     "Upload a csv file with the company's financial data", type=["csv"]
     # )
     csv_file_path = (
-        'financials_data.csv'
+        'stock_tickers.csv'
     )
 
     if st.button("Start Analysis") and task is not None:
